@@ -14,4 +14,4 @@ res=./sclstm.res
 
 
 python3 run_woz3.py --data_split=$dataSplitFile --mode=train --model_path=$model_path --n_layer=$l --lr=$lr \
- --vocab_file=resource/woz3/data_split/wocab.txt
+# --vocab_file=resource/woz3/data_split/wocab.txt
